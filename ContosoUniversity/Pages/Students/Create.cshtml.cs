@@ -26,9 +26,7 @@ namespace ContosoUniversity.Pages.Students
         [BindProperty]
         public Student Student { get; set; }
 
-        [BindProperty]
-        public StudentVM StudentVM { get; set; }
-
+        
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
